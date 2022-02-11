@@ -176,7 +176,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 30.137627
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -267,7 +267,7 @@ SpriteRenderer:
   m_Sprite: {fileID: 21300000, guid: b64bc154ab6336f459f9b28c0cbd052c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
-  m_FlipY: 0
+  m_FlipY: 1
   m_DrawMode: 0
   m_Size: {x: 9.934893, y: 22.14}
   m_AdaptiveModeThreshold: 0.5
@@ -301,3 +301,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00c1a496b8ce7494c9c2e3017d73d62a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  steerSpeed: 0.0025
+  driveSpeed: 0.01
