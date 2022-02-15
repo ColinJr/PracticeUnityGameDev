@@ -7,9 +7,9 @@ public class FollowCamera : MonoBehaviour
     // Start is called before the first frame update
     //this camera's position matches car position
     [SerializeField] private GameObject thingToFollow;
-    void Update()
+    void LateUpdate()
     {
-        //transform.position = thingToFollow().position;
+        transform.position = thingToFollow.transform.position + new Vector3(0 , 0, -10);
     }
-    
+
 }
