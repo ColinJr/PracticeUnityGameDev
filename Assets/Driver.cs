@@ -6,14 +6,10 @@ public class Driver : MonoBehaviour
 {
     [SerializeField] float steerSpeed = 200f;
     [SerializeField] float driveSpeed = 20f;
-
-    // Start is called before the first frame update
     void Start()
     {
         
     }
-
-    // Update is called once per frame
     void Update()
     {
         float steerAmount = Input.GetAxis("Horizontal") * steerSpeed * Time.deltaTime;
